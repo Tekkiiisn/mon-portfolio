@@ -1,4 +1,4 @@
-import { Code, Database, Server, Globe,LanguagesIcon ,Cloud} from 'lucide-react';
+import { Code, Database, Server, Globe,LanguagesIcon ,Cloud,Smartphone} from 'lucide-react';
 
 export default function Skills() {
   const skillCategories = [
@@ -17,6 +17,13 @@ export default function Skills() {
       gradient: 'from-amber-500 to-orange-600',
       border: 'border-amber-500/30'
     },
+    {
+  icon: <Smartphone className="w-8 h-8" />,
+  title: 'Mobile',
+  skills: ['Flutter', 'Dart'],
+  gradient: 'from-sky-500 to-blue-600',
+  border: 'border-sky-500/30'
+},
     {
       icon: <Database className="w-8 h-8" />,
       title: 'Bases de Données',
