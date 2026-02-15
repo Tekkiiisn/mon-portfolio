@@ -16,8 +16,8 @@ export default function Projects() {
     {
       title: 'API REST E-Learning',
       description: 'API RESTful complète pour la plateforme de formation avec authentification JWT, gestion des utilisateurs, cours, modules, paiements et inscriptions. Sécurisée avec Helmet, CORS et Bcrypt. .',
-      technologies: ['Node.js', 'Express.js', 'MySQL',  'JWT', 'Bcrypt', 'Cloudinary', 'Railway'],
-      api: 'https://elearning-backend-production-a297.up.railway.app/', // TON ENDPOINT
+      technologies: ['Node.js', 'Express.js', 'Supabase',  'JWT', 'Bcrypt', 'Cloudinary', 'Vercel'],
+      api: 'https://elearning-backend-nine.vercel.app/', // TON ENDPOINT
       hasApi: true,
       isBackendOnly: true, // Indique que c'est uniquement un backend
       gradient: 'from-amber-500/20 to-orange-600/10'
@@ -25,7 +25,7 @@ export default function Projects() {
     {
       title: 'Plateforme de paiement en ligne de frais de scolarité ',
       description: 'Application web robuste avec tableau de bord interactif, gestion des utilisateurs, connexion des parents pour payer les mensualités de leurs enfants.',
-      technologies: ['React', 'Node.js', 'MySQL','Express.js', 'JWT','Api Orange money/wave'],
+      technologies: ['React', 'Node.js', 'PostgreSQL','Express.js', 'JWT','Api Orange money/wave'],
       github: 'https://github.com/Tekkiiisn/SenPaiement',
       demo: 'https://sen-paiement.vercel.app/',
       gradient: 'from-teal-500/20 to-emerald-600/10'
