@@ -9,7 +9,7 @@ export default function Projects() {
       featured: true,
       // Remplace ces liens par tes vrais liens
       github: '#', // Si tu veux garder le bouton GitHub
-      demo: 'https://formation-ecommerce-sn.onrender.com', // TON LIEN FRONTEND
+      demo: 'https://formation-ecommerce.vercel.app', // TON LIEN FRONTEND
       hasApi: true, // Active le bouton API
       gradient: 'from-emerald-500/20 to-emerald-600/10'
     },
