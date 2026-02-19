@@ -28,7 +28,6 @@ export default function Projects() {
       featured: true,
       isFullstack: true,
       demo: 'https://job-tech-woad.vercel.app',
-      api: 'https://job-tech-backend.vercel.app/api',
       hasApi: true,
       stats: [
         { icon: Users,    label: '3 rôles',        sub: 'Candidat · Entreprise · Admin' },
