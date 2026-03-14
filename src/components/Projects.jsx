@@ -5,17 +5,17 @@ export default function Projects() {
     {
       title: 'Plateforme de Formation en Ligne',
       description: 'Plateforme de formation permettant aux utilisateurs de s\'inscrire, suivre des cours sur la vente en ligne, payer pour certaines formations. Inclut un système de gestion complet pour moi avec tableaux de bord analytiques.',
-      technologies: ['React', 'Node.js', 'Express.js', 'MySQL', 'JWT', 'Cloudinary', 'Vercel', 'Railway'],
+      technologies: ['React', 'Node.js', 'Express.js', 'Mysql', 'JWT', 'Cloudinary', 'Vercel', 'Railway'],
       featured: true,
       github: '#',
-      demo: 'https://formation-ecommerce.vercel.app',
+      demo: 'https://formationecom.com',
       hasApi: true,
       gradient: 'from-emerald-500/20 to-emerald-600/10'
     },
     {
       title: 'API REST E-Learning',
       description: 'API RESTful complète pour la plateforme de formation avec authentification JWT, gestion des utilisateurs, cours, modules, paiements et inscriptions. Sécurisée avec Helmet, CORS et Bcrypt.',
-      technologies: ['Node.js', 'Express.js', 'Supabase', 'JWT', 'Bcrypt', 'Cloudinary', 'Vercel'],
+      technologies: ['Node.js', 'Express.js', 'Supabase', 'JWT', 'Bcrypt', 'Cloudinary', 'Vercel','Paydunya'],
       api: 'https://elearning-backend-nine.vercel.app/',
       hasApi: true,
       isBackendOnly: true,
