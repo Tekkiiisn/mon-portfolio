@@ -2,57 +2,42 @@ import { Code, Database, Server, Globe,LanguagesIcon ,Cloud,Smartphone} from 'lu
 
 export default function Skills() {
   const skillCategories = [
+  {
+    icon: <Code className="w-8 h-8" />,
+    title: 'Front-End',
+    skills: ['HTML5', 'CSS3', 'JavaScript', 'React JS', 'TypeScript', 'Tailwind CSS'],
+  },
+  {
+    icon: <Server className="w-8 h-8" />,
+    title: 'Back-End',
+    skills: ['Node.js', 'Express.js', 'PHP', 'REST API', 'JWT'],
+  },
+  {
+    icon: <Database className="w-8 h-8" />,
+    title: 'Bases de Données',
+    skills: ['MySQL', 'PostgreSQL', 'MongoDB'],
+  },
+  {
+    icon: <Globe className="w-8 h-8" />,
+    title: 'DevOps & Déploiement',
+    skills: ['Git', 'GitHub', 'Docker', 'Vercel', 'Railway', 'Render'],
+  },
+  {
+    icon: <Cloud className="w-8 h-8" />,
+    title: 'Cloud & Storage',
+    skills: ['Cloudinary'],
+  },
     {
-      icon: <Code className="w-8 h-8" />,
-      title: 'Front-End',
-      skills: ['HTML5', 'CSS3', 'JavaScript', 'React JS', 'Tailwind CSS','TypeScript'],
-      gradient: 'from-emerald-500 to-emerald-600',
-      border: 'border-emerald-500/30'
-    },
-    
-    {
-      icon: <Server className="w-8 h-8" />,
-      title: 'Back-End',
-      skills: ['PHP', 'Python', 'Node.js', 'Express.js','Rest API', 'JWT'],
-      gradient: 'from-amber-500 to-orange-600',
-      border: 'border-amber-500/30'
-    },
-    {
-  icon: <Smartphone className="w-8 h-8" />,
-  title: 'Mobile',
-  skills: ['Flutter', 'Dart'],
-  gradient: 'from-sky-500 to-blue-600',
-  border: 'border-sky-500/30'
+  icon: <Code className="w-8 h-8" />,
+  title: 'Architecture & Concepts',
+  skills: ['API REST', 'Authentification JWT', 'Architecture MVC']
 },
-    {
-      icon: <Database className="w-8 h-8" />,
-      title: 'Bases de Données',
-      skills: ['MySQL', 'PostgreSQL', 'SQL','firebase'],
-      gradient: 'from-emerald-600 to-teal-600',
-      border: 'border-teal-500/30'
-    },
-    {
-      icon: <Globe className="w-8 h-8" />,
-      title: 'Déploiement & DevOps',
-      skills: ['Vercel', 'Railway', 'GitHub'],
-      gradient: 'from-amber-600 to-orange-500',
-      border: 'border-amber-500/20'
-    },
-    {
-        icon: <Cloud className="w-8 h-8" />,
-        title: 'Cloud & Storage',
-        skills: ['Cloudinary'],
-        gradient: 'from-teal-500 to-emerald-600',
-        border: 'border-teal-500/30'
-    },
-    {
-        icon: <LanguagesIcon className="w-8 h-8" />,
-        title: 'Langues',
-        skills: ['Français', 'Anglais', 'Wolof'],
-        gradient: 'from-blue-500 to-indigo-600',
-        border: 'border-blue-500/30'
-    }
-  ];
+  {
+    icon: <LanguagesIcon className="w-8 h-8" />,
+    title: 'Langues',
+    skills: ['Français', 'Anglais', 'Wolof'],
+  }
+];
 
   return (
     <section id="skills" className="py-24 bg-gradient-to-b from-gray-900/50 to-gray-900/20 relative">
