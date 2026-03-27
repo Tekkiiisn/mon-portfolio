@@ -200,12 +200,7 @@ export default function Projects() {
                       </a>
                     )}
 
-                    {(!project.github || project.github === '#') && !project.isBackendOnly && !project.isFullstack && (
-                      <div className="flex items-center gap-2 px-5 py-3 bg-gray-700/30 rounded-lg border border-gray-600/30 text-gray-400 text-sm">
-                        <Github size={16} />
-                        <span>Repo privé</span>
-                      </div>
-                    )}
+                   
                   </div>
                 </div>
               </div>
