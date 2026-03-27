@@ -77,8 +77,6 @@ export default function Projects() {
       title: 'Portfolio Dynamique',
       description: 'Site portfolio moderne avec animations fluides, interface responsive et design unique. Démonstration de compétences en front-end avancé.',
       technologies: ['React', 'Tailwind CSS', 'Vercel'],
-      github: '#',
-      demo: '#',
       gradient: 'from-amber-500/20 to-amber-600/10'
     }
   ];
