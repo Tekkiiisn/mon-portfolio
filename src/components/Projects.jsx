@@ -2,29 +2,31 @@ import { ExternalLink, Github, Server, Users, Briefcase, Database, Globe } from 
 
 export default function Projects() {
   const projects = [
-    {
-      title: 'Plateforme de Formation en Ligne',
-      description: 'Plateforme de formation permettant aux utilisateurs de s\'inscrire, suivre des cours sur la vente en ligne, payer pour certaines formations. Inclut un système de gestion complet pour moi avec tableaux de bord analytiques.',
-      technologies: ['React', 'Node.js', 'Express.js', 'Mysql', 'JWT', 'Cloudinary', 'Vercel', 'Railway'],
-      featured: true,
-      github: '#',
-      demo: 'https://formationecom.com',
-      hasApi: true,
-      gradient: 'from-emerald-500/20 to-emerald-600/10'
-    },
-    {
-      title: 'API REST E-Learning',
-      description: 'API RESTful complète pour la plateforme de formation avec authentification JWT, gestion des utilisateurs, cours, modules, paiements et inscriptions. Sécurisée avec Helmet, CORS et Bcrypt.',
-      technologies: ['Node.js', 'Express.js', 'Supabase', 'JWT', 'Bcrypt', 'Cloudinary', 'Vercel','Paydunya'],
-      api: 'https://elearning-backend-nine.vercel.app/',
-      hasApi: true,
-      isBackendOnly: true,
-      gradient: 'from-amber-500/20 to-orange-600/10'
-    },
+// Remplacez les deux premiers objets du tableau projects[] par ceux-ci :
+
+{
+  title: 'Plateforme de Formation en Ligne',
+  description: 'Plateforme de formation permettant aux utilisateurs de s\'inscrire, suivre des cours sur la vente en ligne, payer pour certaines formations. Inclut un système de gestion complet pour moi avec tableaux de bord analytiques.',
+  technologies: ['React', 'Next.js', 'Node.js', 'Express.js', 'PostgreSQL', 'JWT', 'Cloudinary', 'Vercel'],
+  featured: true,
+  github: '#',
+  demo: 'https://formationecom.com',
+  hasApi: true,
+  gradient: 'from-emerald-500/20 to-emerald-600/10'
+},
+{
+  title: 'API REST E-Learning',
+  description: 'API RESTful complète pour la plateforme de formation avec authentification JWT, gestion des utilisateurs, cours, modules, paiements et inscriptions. Sécurisée avec Helmet, CORS, Rate Limiting et Bcrypt.',
+  technologies: ['Node.js', 'Express.js', 'Supabase', 'PostgreSQL', 'JWT', 'Bcrypt', 'Cloudinary', 'Vercel', 'PayDunya'],
+  api: 'https://api.formationecom.com',
+  hasApi: true,
+  isBackendOnly: true,
+  gradient: 'from-amber-500/20 to-orange-600/10'
+},
     {
       title: 'JobPlatform — Plateforme de Recrutement',
       description: 'Application fullstack complète de mise en relation entre candidats et entreprises. Système de rôles (candidat, entreprise, admin), gestion des offres avec modération, candidatures avec upload CV, notifications en temps réel et tableaux de bord analytiques.',
-      technologies: ['React 18', 'Vite', 'TailwindCSS', 'Zustand', 'Tanstack Query', 'Node.js', 'Express.js', 'Supabase', 'PostgreSQL', 'JWT', 'Vercel'],
+      technologies: ['React ', 'Vite', 'TailwindCSS', 'Node.js', 'Express.js', 'Supabase' , 'JWT', 'Vercel'],
       featured: true,
       isFullstack: true,
       demo: 'https://job-tech-woad.vercel.app',
@@ -38,13 +40,32 @@ export default function Projects() {
       gradient: 'from-blue-500/20 to-indigo-600/10'
     },
     {
-      title: 'Plateforme de paiement en ligne de frais de scolarité',
-      description: 'Application web robuste avec tableau de bord interactif, gestion des utilisateurs, connexion des parents pour payer les mensualités de leurs enfants.',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'Express.js', 'JWT', 'Api Orange money/wave'],
-      github: 'https://github.com/Tekkiiisn/SenPaiement',
-      demo: 'https://sen-paiement.vercel.app/',
-      gradient: 'from-teal-500/20 to-emerald-600/10'
-    },
+  title: 'Mourchid Boutique - Boutique E-commerce Personnelle',
+  description: 'Plateforme e-commerce complète sur laquelle je fais mes ventes au lieu d utiliser shopify, intégration Facebook Ads Pixel pour tracking, paiement mobile money (Wave/Orange Money) via Paydunya, notification commande et système de gestion de stock en temps réel.',
+  technologies: [
+    'React',
+    'Node.js', 
+    'Supabase',
+    'Express.js',
+    'Cloudinary',
+    'Paydunya API',
+    'Facebook Pixel',
+    'Tailwind CSS',
+    'JWT'
+  ],
+  features: [
+    'Multi-vendor marketplace',
+    'Facebook Ads tracking & retargeting',
+    'Paiement Wave & Orange Money',
+    'Upload images Cloudinary',
+    'Dashboard vendeur complet',
+    'Gestion stock temps réel',
+    'Analytics & statistiques'
+  ],
+  
+  demo: 'https://mourchidboutique.vercel.app/',
+  gradient: 'from-purple-500/20 to-pink-600/10'
+},
     {
       title: 'Application mobile de Gestion des Tâches',
       description: 'Application mobile cross-platform pour gérer les tâches quotidiennes avec fonctionnalités de création, modification, suppression et organisation des tâches.',
