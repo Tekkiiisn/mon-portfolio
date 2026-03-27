@@ -66,13 +66,7 @@ export default function Projects() {
   demo: 'https://mourchidboutique.vercel.app/',
   gradient: 'from-purple-500/20 to-pink-600/10'
 },
-    {
-      title: 'Application mobile de Gestion des Tâches',
-      description: 'Application mobile cross-platform pour gérer les tâches quotidiennes avec fonctionnalités de création, modification, suppression et organisation des tâches.',
-      technologies: ['Flutter', 'Dart'],
-      github: 'https://github.com/Tekkiiisn/Taches_app',
-      gradient: 'from-teal-500/20 to-emerald-600/10'
-    },
+    
     {
       title: 'Portfolio Dynamique',
       description: 'Site portfolio moderne avec animations fluides, interface responsive et design unique. Démonstration de compétences en front-end avancé.',
