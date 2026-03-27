@@ -37,7 +37,8 @@ export default function Contact() {
 
           <div className="bg-gradient-to-br from-gray-800/50 to-gray-800/30 backdrop-blur-xl rounded-3xl p-10 md:p-14 border border-emerald-500/15 hover:border-emerald-500/30 transition-all duration-500 shadow-xl">
             <p className="text-lg text-gray-200 text-center mb-14 leading-relaxed">
-              Je suis actuellement à la recherche d'opportunités en tant que développeur Full Stack junior. N'hésitez pas à me contacter pour discuter de vos projets, d'opportunités de collaboration ou simplement pour échanger sur le développement web.
+              Ouvert aux projets freelance, partenariats techniques et toute opportunité de 
+  construire quelque chose d'impactant ensemble.
             </p>
 
             <div className="grid md:grid-cols-3 gap-6 mb-12">
