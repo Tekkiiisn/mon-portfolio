@@ -15,7 +15,7 @@ export default function Skills() {
   {
     icon: <Database className="w-8 h-8" />,
     title: 'Bases de Données',
-    skills: ['MySQL', 'PostgreSQL', 'MongoDB'],
+    skills: ['MySQL', 'PostgreSQL', 'MongoDB','Supabase'],
   },
   {
     icon: <Globe className="w-8 h-8" />,
