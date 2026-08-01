@@ -1,18 +1,13 @@
-import { Heart } from 'lucide-react';
-
 export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="py-10 border-t border-emerald-500/20 bg-gradient-to-b from-gray-900/30 to-gray-950/50">
-      <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-gray-400 text-sm font-medium">
-            © {year} Hamidou Mbodj. Tous droits réservés.
-          </p>
-
-          
-        </div>
+    <footer className="py-10 px-6 border-t-2 border-dashed border-[var(--line)]">
+      <div className="max-w-5xl mx-auto text-center">
+        <div className="barcode max-w-xs mx-auto mb-4 opacity-70"></div>
+        <p className="font-ticket text-[11px] uppercase tracking-[0.25em] text-[var(--ink-soft)]">
+          Merci de votre visite — © {year} Hamidou Mbodj
+        </p>
       </div>
     </footer>
   );
