@@ -36,7 +36,7 @@ export default function Projects() {
       description:
         "Plateforme e-commerce complète sur laquelle je fais mes ventes, intégration Facebook Ads Pixel pour tracking, paiement mobile money (Wave/Orange Money) via PayDunya, notifications de commande et gestion de stock en temps réel.",
       technologies: ['React', 'Node.js', 'Supabase', 'Cloudinary', 'PayDunya API', 'Facebook Pixel'],
-      demo: 'https://mourchidboutique.vercel.app/',
+      demo: 'https://sunulunettes.shop',
       status: 'En ligne',
     },
     {
